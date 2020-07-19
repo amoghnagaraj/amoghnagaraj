@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact Details</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+    .container {
+      border-radius: 5px;
+      background-color: #fff9db;
+      padding: 20px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+
+      .col-25,
+      .col-75,
+      input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    <strong>
+      <u style="text-decoration-line: underline; text-decoration-style: double; color: ##32a852;">
+        MY CONTACT DETAILS
+      </u>
+    </strong>
+  </h1>
+  <p style="text-align: center;">
+    <a href="amoghsamrat@gmail.com"><img style="width:125px; height: 100px; border-radius: 25%;" src="photos/email.png" alt=""></a>
+    <a href="https://www.instagram.com/amogh.nagaraj/"><img style="width:125px; height: 100px; border-radius: 25%;" src="photos/instagram.jpeg" alt=""></a>
+    <a href="https://twitter.com/amoghnagaraj05/"><img style="width:100px; height: 100px; border-radius: 25%;" src="photos/twitter.png" alt=""></a>
+    <a href="https://goo.gl/maps/AWqpTDG2Sgksu1Cs8"><img style="width:175px; height: 100px; border-radius: 25%; background-color: white;" src="photos/google-maps.png" alt=""></a>
+  </p>
+  <hr>
+  <h3 style="text-align: left; color: cornflowerblue; text-align: center; font-size: 20px;">
+    If you have any queries, please leave your details down below and I will get back to you.
+  </h3>
+
+
+  <div class="container">
+    <form class="" action="contact-me.html" method="post">
+
+      <div class="row">
+        <div class="col-25">
+          <label style="color: purple" for="fname"><u>Your Name:</u></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your Name in caps">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="color: purple" for="lname"><u>Your E-Mail ID:</u></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="someone@example.com">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="color: purple" for="fname"><u>Your Phone Number:</u></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="+91 12345 67890">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="color: purple" for="fname"><u>Your Address:</u></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="subject" name="firstname" placeholder="Your Address">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label style="color: purple" for="subject"><u>Queries:</u></label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Your Feedback" style="height:100px"></textarea>
+        </div>
+      </div>
+
+      <input id="BUTTON" type="submit">
+    </form>
+  </div>
+  <br>
+  <hr>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+</body>
+
+</html>
